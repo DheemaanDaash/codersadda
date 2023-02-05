@@ -1,0 +1,180 @@
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #0077ff;
+  margin: 0 20px;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin: 8px;
+  align-items: center;
+}
+
+.icon:hover {
+  background-color:#383b3c;
+  transition: all;
+}
+
+.roomsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.left {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.goBack {
+  display: flex;
+  align-items: center;
+  background: none;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.goBack span {
+  margin-left: 1rem;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+.goBack span::after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 60%;
+  height: 4px;
+  background: #0077ff;
+  border-radius: 10px;
+}
+.username{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.bio {
+  text-align: left;
+  padding: 0px 50px 50px 50px;
+}
+
+.input-bio {
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  background-color: #262626;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 18px;
+}
+.messagebtn {
+  height: 30px;
+  width: 60%;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0077ff;
+}
+.addbtn {
+  height: 35px;
+  width: 10%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #34A853;
+}
+
+.updatebtn {
+  height: 35px;
+  width: 10%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #34A853;
+}
+
+.editbtn {
+  height: 35px;
+  width: 10%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #4285FA;
+  float: left;
+  margin-top: 15px !important;
+}
+
+.deletebtn {
+  height: 35px;
+  width: 10%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #EA4335;
+  margin-left: 10px;
+  float: left;
+  margin-top: 15px !important;
+}
+
+.biopart {
+  border-radius: 5px;
+  width: 850px;
+  margin-top: 20px !important;
+  
+}
+
+.biotxt {
+  text-align: left;
+  padding: 10px;
+}

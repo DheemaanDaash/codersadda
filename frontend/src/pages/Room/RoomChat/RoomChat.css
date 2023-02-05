@@ -1,0 +1,45 @@
+.chat {
+    background-color: #262626;
+    padding: 25px;
+    border-radius: 15px;
+    height: 50vh;
+    width: 20vw;
+    margin-top: 10px;
+}
+
+.message {
+    display: flex;
+}
+
+.imputmsg {
+    border: none !important;
+    border-radius: 25px;
+    width: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.msgbtn {
+    background-color:#0077ff;
+    color: aliceblue;
+    border: none;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 25px !important;
+}
+
+.reply-box {
+    margin-top: 10px;
+    background-color: #333;
+    width: auto !important;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.mesgchat {
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
